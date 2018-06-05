@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        android:id="@+id/description_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/pillar_text_view"
+            style="@style/Details"
+            android:layout_weight="1.2"
+            android:gravity="left"
+            tools:text="News" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            style="@style/Details"
+            android:layout_weight="1"
+            tools:text="2018-04-30" />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            style="@style/Details"
+            android:layout_weight="1"
+            android:gravity="right"
+            tools:text="19:52" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/author_text_view"
+        style="@style/Author"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/first_line_text_view"
+        style="@style/Title"
+        tools:text="Title" />
+
+</LinearLayout>

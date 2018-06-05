@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //fonts size
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="detailsTextSize">12sp</dimen>
+    <dimen name="authorTextSize">15sp</dimen>
+
+    // Layout width
+    <dimen name="detailsLayout_width">0dp</dimen>
+
+    //Padding size
+    <dimen name="padding">8dp</dimen>
+</resources>

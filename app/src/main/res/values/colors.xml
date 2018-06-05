@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#2B3D4D</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#23303D</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#10CAC9</color>
+
+    <!-- Text color for the details of the news in the list item -->
+    <color name="textColorNewsDetails">#B4BAC0</color>
+
+    <!-- Text color for the author of the news in the list item -->
+    <color name="textColorNewsAuthor">#4e5154</color>
+
+    <!-- Text color for the primary location of the news in the list item -->
+    <color name="textColorNewsTitle">#2B3D4D</color>
+
+    <!-- Color for an pillar = News -->
+    <color name="pillar1">#3b4e5e</color>
+
+    <!-- Color for an pillar = Lifestyle -->
+    <color name="pillar2">#4f5422</color>
+
+    <!--Color for others pillar -->
+    <color name="pillar3">#453502</color>
+</resources>

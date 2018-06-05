@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings strings -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title"><News></News> Settings</string>
+
+    <string name="settings_topic_label">Topic</string>
+    <string name="settings_topic_key" translatable="false">q</string>
+    <string name="settings_topic_default" translatable="false">Hillary Clinton</string>
+
+</resources>
